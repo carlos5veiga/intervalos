@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Um estudo sobre os intervalos musicais.">
+    <meta name="keywords" content="Intervalo, Consonância, Dissonância, Carlos Veiga">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-H9L5D8BG84"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+        gtag('config', 'G-H9L5D8BG84');
+    </script>
+
+
+    <title>Intervalos</title>
+</head>
+
+<body>
+
+    <script>
+        const tonica = 14;
+    </script>
+
+    <header class="nav-container">
+        <nav class="nav-main">
+            <a class="nav-brand" href="#">Intervalos</a>
+            <ul class="menu-items">
+                <li><a href="#introducao">Introdução</a></li>
+                <li><a href="#consonancias">Consonâncias</a></li>
+                <li><a href="#dissonancias">Dissonâncias</a></li>
+                <li><a href="#quartas">Quartas</a></li>
+                <li><a href="intervalos.html">Cursos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="section-container" id="introducao">
+            <h1 class="section-title">Introdução</h1>
+            <p class="section-description">Segundo o Dicionário Grove de Música "intervalo é a distância entre duas alturas. Os intervalos são descritos de acordo com o número de graus que abrangem numa escala diatônica contados de forma inclusiva."<br> Ainda segundo o dicionário "os
+                intervalos podem ser identificados por suas razões de frequências. Uma oitava é 2:1, uma quinta justa é 3:2. Dentro da oitava o intervalo é sempre complementado por sua inversão (a terça menor é a inversão da sexta maior)."
+            </p>
+        </section>
+        <section class="section-container" id="consonancias">
+            <h1 class="section-title">Consonâncias</h1>
+            <p class="section-description">Consonância, segundo o Grove, é a "vibração concordante de ondas sonoras de diferentes frequências relacionadas entre si pelas razões de números inteiros."<br> As consonâncias são dividas em perfeitas (quinta justa, oitava justa) e imperfeitas
+                (terças e sextas).
+            </p>
+            <div class="card">
+                <div class="card-container">
+                    <div class="card-item">
+                        <h3>Consonâncias Perfeitas</h3>
+                        <img name="consperfeita" src="img/oitava.jpg" alt="Perfeitas">
+                        <div class="btn-container">
+                            <button class="card-button" id="btn-oitava">Oitava Justa</button>
+                            <button class="card-button" id="btn-quinta">Quinta Justa</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-container">
+                    <div class="card-item">
+                        <h3>Consonâncias imperfeitas</h3>
+                        <img name="consimperfeita" src="img/terca-menor.jpg" alt="Imperfeitas">
+                        <div class="btn-container">
+                            <button class="card-button" id="btn-terca-menor">Terça Menor</button>
+                            <button class="card-button" id="btn-terca-maior">Terça Maior</button>
+                        </div>
+                        <div class="btn-container">
+                            <button class="card-button" id="btn-sexta-menor">Sexta Menor</button>
+                            <button class="card-button" id="btn-sexta-maior">Sexta Maior</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section-container" id="dissonancias">
+            <h1 class="section-title">Dissonâncias</h1>
+            <p class="section-description">Os intervalos aumentados e diminutos, assim como segundas e sétimas, são considerados dissonâncias.<br> De acordo com o Grove, o intervalo dissonante é instável e carece de resolução para uma dissonância.<br> Eu, Carlos Veiga Filho, discordo
+                da necessidade de resolução.
+            </p>
+            <div class="card">
+                <div class="card-container">
+                    <div class="card-item">
+                        <img name="dissonancia" src="img/segunda-menor.jpg" alt="Dissonancias">
+                        <div class="btn-container">
+                            <button class="card-button" id="btn-segunda-menor">Segunda Menor</button>
+                            <button class="card-button" id="btn-segunda-maior">Segunda Maior</button>
+                        </div>
+                        <div class="btn-container">
+                            <button class="card-button" id="btn-setima-menor">Sétima Menor</button>
+                            <button class="card-button" id="btn-setima-maior">Sétima Maior</button>
+                        </div>
+                        <div class="btn-container">
+                            <button class="card-button" id="btn-quarta-aum">Quarta Aumentada</button>
+                            <button class="card-button" id="btn-quinta-dim">Quinta Diminuta</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section-container" id="quartas">
+            <h1 class="section-title">Quartas</h1>
+            <p class="section-description">As quartas justas são casos especiais e podem ser consideradas consonâncias em alguns casos e dissonâncias em outros. Teóricos de diferentes períodos divergem em relação à classificação da quarta justa.
+            </p>
+            <div class="card">
+                <div class="card-container">
+                    <div class="card-item">
+                        <img name="quarta" src="img/quarta.jpg" alt="Quarta">
+                        <div class="btn-container">
+                            <button class="card-button" id="btn-quarta">Quarta Justa</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p class="footer-title">Copyright &copy; 2010 -
+            <script>
+                const CurrentYear = new Date().getFullYear();
+                document.write(CurrentYear);
+            </script> Carlos Veiga Filho
+        </p>
+    </footer>
+
+    <script src="js/script.js"></script>
+    <script src="tonejs/Tone.js"></script>
+</body>
+
+</html>
