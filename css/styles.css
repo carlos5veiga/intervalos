@@ -148,6 +148,17 @@ main {
     margin: 10px;
 }
 
+.btn-container-all {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.btn-container-all button {
+    margin: 20px;
+    padding: 5px 10px;
+}
+
 .footer-title {
     color: #f3ef15;
     font-size: 1rem;
@@ -158,6 +169,10 @@ main {
     color: #fffeb4;
     background-color: #00455d;
     text-decoration: none;
+}
+
+#cursos {
+    margin-bottom: 60px;
 }
 
 @media(min-width: 576px) {
