@@ -144,6 +144,12 @@ main {
     text-align: center
 }
 
+.btn-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
 .btn-container button {
     margin: 10px;
 }
@@ -151,7 +157,7 @@ main {
 .btn-container-all {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-around;
 }
 
 .btn-container-all button {
