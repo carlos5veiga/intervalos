@@ -144,6 +144,30 @@ main {
     text-align: center
 }
 
+<<<<<<< HEAD
+=======
+.btn-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn-container button {
+    margin: 10px;
+}
+
+.btn-container-all {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.btn-container-all button {
+    margin: 20px;
+    padding: 5px 10px;
+}
+
+>>>>>>> cdaa389efd8586dea39c92ae8628d30d17e43f79
 .footer-title {
     color: #f3ef15;
     font-size: 1rem;
@@ -156,10 +180,15 @@ main {
     text-decoration: none;
 }
 
+<<<<<<< HEAD
 .btn-container {
     width: 100%;
     display: flex;
     justify-content: space-around;
+=======
+#cursos {
+    margin-bottom: 60px;
+>>>>>>> cdaa389efd8586dea39c92ae8628d30d17e43f79
 }
 
 @media(min-width: 576px) {
